@@ -1,0 +1,13 @@
+.custom-select select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* Seçilen öğe stilini belirleme */
+.custom-select select option:checked {
+  background-color: #f2f2f2;
+}

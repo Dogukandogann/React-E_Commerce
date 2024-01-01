@@ -1,0 +1,67 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  max-width: 400px; /* Kart genişliği */
+  margin: 0 auto; /* Sayfa ortasına almak için */
+  padding: 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.button {
+  align-self: flex-end;
+}
+.item img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.text {
+  margin: 6px 0px;
+  color: #374151;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.desc {
+  margin: 6px 0px;
+}
+
+.item-price {
+  color: #374151;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 90px;
+}
+.item:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.button {
+  text-align: center;
+  display: flex;
+}
+
+.button button {
+  padding: 12px 24px;
+  background-color: whitesmoke;
+  border: 1px solid purple;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: purple;
+  font-weight: 700;
+}
+
+.button button:hover {
+  background-color: purple;
+  color: white;
+}
